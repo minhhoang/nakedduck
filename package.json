@@ -1,0 +1,24 @@
+{
+  "name": "cafe-platform",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "npm@11.9.0", 
+  "description": "A cafe platform for managing orders, menu, and customer interactions for cafe owners.",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Minh Hoang",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "turbo": "^2.8.13"
+  }
+}
