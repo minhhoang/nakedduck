@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_sections_items_contents",
+  "info": {
+    "displayName": "Items Content",
+    "singularName": "items-content",
+    "pluralName": "items-contents",
+    "description": "Section with multiple media items"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "columnsPerRow": {
+      "type": "integer",
+      "default": 3
+    },
+    "layout": {
+      "type": "enumeration",
+      "enum": ["layout-icon", "layout-image"],
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.media-item"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  }
+}

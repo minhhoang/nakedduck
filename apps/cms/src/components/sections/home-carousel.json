@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_home_carousels",
+  "info": {
+    "displayName": "Home Carousel",
+    "singularName": "home-carousel",
+    "pluralName": "home-carousels",
+    "description": "Homepage carousel section"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images"]
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  }
+}
