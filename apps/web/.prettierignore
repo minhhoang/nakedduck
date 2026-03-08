@@ -1,0 +1,17 @@
+# Ignore artifacts:
+.next
+build
+dist
+node_modules
+.turbo
+
+# Ignore all JSON files except specific ones:
+*.json
+
+# Ignore Markdown files:
+*.md
+
+# Ignore environment files:
+.env
+.env.local
+.env.*.local
